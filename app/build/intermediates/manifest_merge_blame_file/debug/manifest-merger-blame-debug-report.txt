@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.grocerystoreproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:6:5-31:19
+17        android:allowBackup="true"
+17-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\Nitin\.gradle\caches\transforms-3\503affcca2bf1d66493cf2ffd93b77cc\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:8:9-65
+20        android:debuggable="true"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:9:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.GroceryStoreProject" >
+27-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:14:9-57
+28        <activity
+28-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:16:9-18:40
+29            android:name="com.example.grocerystoreproject.SeeAllOrders"
+29-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:17:13-41
+30            android:exported="false" />
+30-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:18:13-37
+31        <activity
+31-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:19:9-21:40
+32            android:name="com.example.grocerystoreproject.EditDetails"
+32-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:20:13-40
+33            android:exported="false" />
+33-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:21:13-37
+34        <activity
+34-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:22:9-30:20
+35            android:name="com.example.grocerystoreproject.MainActivity"
+35-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:23:13-41
+36            android:exported="true" >
+36-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:24:13-36
+37            <intent-filter>
+37-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:25:13-29:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:26:17-69
+38-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:28:17-77
+40-->C:\Users\Nitin\AndroidStudioProjects\grocerystoreproject\app\src\main\AndroidManifest.xml:28:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+45            android:name="com.google.firebase.components.ComponentDiscoveryService"
+45-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+46            android:directBootAware="true"
+46-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+47            android:exported="false" >
+47-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+48            <meta-data
+48-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+49                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+49-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Nitin\.gradle\caches\transforms-3\f968e7fe978a8944d51e976ae60cf201\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+51        </service>
+52
+53        <activity
+53-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Nitin\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+54-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Nitin\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Nitin\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Nitin\.gradle\caches\transforms-3\0e6f522ad209f5e182b9c0b3dea1b6cb\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+57
+58        <provider
+58-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+59            android:name="com.google.firebase.provider.FirebaseInitProvider"
+59-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+60            android:authorities="com.example.grocerystoreproject.firebaseinitprovider"
+60-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+62            android:exported="false"
+62-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+63            android:initOrder="100" />
+63-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Nitin\.gradle\caches\transforms-3\ec3d5d1fdc0ec38bd2906c73fbed579f\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\5d6e3e56e8652026d5bdc8686f18a0e6\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+71            android:authorities="com.example.grocerystoreproject.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nitin\.gradle\caches\transforms-3\9c10419946c063b9dccf6ca0f94f1c83\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nitin\.gradle\caches\transforms-3\4d3f5543a59ac0e586b3333b2fead6aa\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nitin\.gradle\caches\transforms-3\4d3f5543a59ac0e586b3333b2fead6aa\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nitin\.gradle\caches\transforms-3\4d3f5543a59ac0e586b3333b2fead6aa\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+79        </provider>
+80    </application>
+81
+82</manifest>
